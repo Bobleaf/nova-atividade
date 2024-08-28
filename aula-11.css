@@ -108,6 +108,7 @@ margin-top: 80px;
 .section-3{
     padding: 30px;
     background-color:rgb(226, 233, 233) ;
+    align-items: center;
 }
 
 .section-3 h2{
@@ -133,9 +134,26 @@ margin-top: 80px;
     font-size: 15px;
 }
 
-.section-3 button a{
+.section-3 button{
 color: blue;
 text-decoration: none;
+}
+
+.section-3 button:hover{
+    background-color: rgb(50, 50, 226);
+    color: white;
+    border-color:white ;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.section-3 img{
+    margin-left: 30%;
+    width: 300px;
+}
+
+.section-3 .line{
+    margin-top: 12px;
 }
 
 
