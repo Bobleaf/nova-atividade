@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    background-color:  rgb(78, 135, 168);
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-right: 10px; 
+    font-size: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    transition: 0.7s;
+    color: rgb(81, 81, 228);
+
+}
+
+.section-1{
+background: linear-gradient(180deg,#c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+padding: 200px;
+}
+
+.section-1 h1{
+    font-size: 30px;
+    color:  rgba(0, 0, 0, 0.712);
+}
+
+.section-1 p{
+    font-size: 20px;
+}
+
+.section-1 button{
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    color:  rgb(19, 153, 108);
+    border-color:  rgb(19, 153, 108);
+    font-size: 15px;
+
+}
+.section-1 button:hover{
+    color: white;
+    background-color:  rgb(19, 153, 108);
+    border-color: white;
+    transition: 0.8s;
+}
+
+.section-2{
+    padding:30px ;
+    background-color: rgb(226, 233, 233);
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.section-2 .paragrafo a button{
+    padding: 20px;
+    border-radius: 50px;
+    color:rgb(19, 153, 108);
+    border-color:  rgb(19, 153, 108);
+    margin: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section-2 .paragrafo p{
+font-size: 25px;
+margin-top: 80px;
+}
+
+.section-2 .paragrafo a button:hover{
+    background-color:  rgb(90, 168, 168);
+    transition: 0.8s;
+    border-color: white;
+    color: white;
+    
+}
+
+.section-2 .paragrafo a{
+    text-decoration:none;
+    color: rgb(19, 153, 108);
+    font-size: 15px;
+}
+
+.section-2 div img{
+    width: 300px;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+
+.section-3{
+    padding: 30px;
+    background-color:rgb(226, 233, 233) ;
+}
+
+.section-3 h2{
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(34, 34, 74);
+    text-align: center;
+}
+
+.section-3 p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.564);
+    text-align: justify;
+}
+
+.section-3 button{
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(50, 50, 226); 
+    border-color: rgb(50, 50, 226); 
+    margin: 60px; 
+    font-size: 15px;
+}
+
+.section-3 button a{
+color: blue;
+text-decoration: none;
+}
+
+
