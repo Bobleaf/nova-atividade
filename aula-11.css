@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 header {
@@ -72,7 +73,7 @@ header nav ul li a:hover {
     display: flex;
 }
 
-.section-2 .paragrafo a button {
+.section-2 div a button {
     padding: 20px;
     border-radius: 50px;
     color: rgb(19, 153, 108);
@@ -82,12 +83,12 @@ header nav ul li a:hover {
     cursor: pointer;
 }
 
-.section-2 .paragrafo p {
+.section-2 div p {
     font-size: 25px;
     margin-top: 80px;
 }
 
-.section-2 .paragrafo a button:hover {
+.section-2 div a button:hover {
     background-color: rgb(90, 168, 168);
     transition: 0.8s;
     border-color: white;
@@ -95,7 +96,7 @@ header nav ul li a:hover {
 
 }
 
-.section-2 .paragrafo a {
+.section-2 p a {
     text-decoration: none;
     color: rgb(19, 153, 108);
     font-size: 15px;
@@ -118,13 +119,17 @@ header nav ul li a:hover {
     margin-top: 20px;
     color: rgb(34, 34, 74);
     text-align: center;
+    align-items: center;
 }
 
 .section-3 p {
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: rgba(0, 0, 0, 0.564);
     text-align: justify;
+    align-items: center;
 }
 
 .section-3 button {
@@ -146,12 +151,14 @@ header nav ul li a:hover {
 }
 
 .section-3 img {
-    margin-left: 30%;
-    width: 300px;
+    margin-left: 35%;
+    width: 400px;
 }
 
 .section-3 .line {
     margin-top: 12px;
+    width: 35%;
+    margin-left: 35%;
 }
 
 .section-4 {
@@ -201,11 +208,11 @@ footer {
 
 }
 
-footer div img {
+footer img {
     width: 300px;
 }
 
-footer #texto {
+footer #text {
     display: flex;
     margin-right: 30px;
     justify-content: space-between;
@@ -215,11 +222,11 @@ footer #texto {
     color: grey;
 }
 
-footer ul a li {
+footer nav ul li a {
     color: white;
 }
 
-footer ul a li:hover {
+footer nav ul li a:hover {
     color: red;
     transition: 0.7s;
 }
