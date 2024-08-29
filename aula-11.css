@@ -4,156 +4,222 @@
     list-style: none;
 }
 
-header{
-    background-color:  rgb(78, 135, 168);
+header {
+    background-color: rgb(78, 135, 168);
     padding: 15px;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none;
-    margin-right: 10px; 
+    margin-right: 10px;
     font-size: 10px;
 }
-header nav ul li a{
+
+header nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     transition: 0.7s;
     color: rgb(81, 81, 228);
 
 }
 
-.section-1{
-background: linear-gradient(180deg,#c0cdcf 8.33%, rgba(90, 168, 168) 100%);
-padding: 200px;
+.section-1 {
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    padding: 200px;
 }
 
-.section-1 h1{
+.section-1 h1 {
     font-size: 30px;
-    color:  rgba(0, 0, 0, 0.712);
+    color: rgba(0, 0, 0, 0.712);
 }
 
-.section-1 p{
+.section-1 p {
     font-size: 20px;
 }
 
-.section-1 button{
+.section-1 button {
     padding: 10px;
     border-radius: 50px;
     cursor: pointer;
     margin-top: 10px;
-    color:  rgb(19, 153, 108);
-    border-color:  rgb(19, 153, 108);
+    color: rgb(19, 153, 108);
+    border-color: rgb(19, 153, 108);
     font-size: 15px;
 
 }
-.section-1 button:hover{
+
+.section-1 button:hover {
     color: white;
-    background-color:  rgb(19, 153, 108);
+    background-color: rgb(19, 153, 108);
     border-color: white;
     transition: 0.8s;
 }
 
-.section-2{
-    padding:30px ;
+.section-2 {
+    padding: 30px;
     background-color: rgb(226, 233, 233);
     justify-content: space-evenly;
     display: flex;
 }
 
-.section-2 .paragrafo a button{
+.section-2 .paragrafo a button {
     padding: 20px;
     border-radius: 50px;
-    color:rgb(19, 153, 108);
-    border-color:  rgb(19, 153, 108);
+    color: rgb(19, 153, 108);
+    border-color: rgb(19, 153, 108);
     margin: 30px;
     font-size: 15px;
     cursor: pointer;
 }
 
-.section-2 .paragrafo p{
-font-size: 25px;
-margin-top: 80px;
+.section-2 .paragrafo p {
+    font-size: 25px;
+    margin-top: 80px;
 }
 
-.section-2 .paragrafo a button:hover{
-    background-color:  rgb(90, 168, 168);
+.section-2 .paragrafo a button:hover {
+    background-color: rgb(90, 168, 168);
     transition: 0.8s;
     border-color: white;
     color: white;
-    
+
 }
 
-.section-2 .paragrafo a{
-    text-decoration:none;
+.section-2 .paragrafo a {
+    text-decoration: none;
     color: rgb(19, 153, 108);
     font-size: 15px;
 }
 
-.section-2 div img{
+.section-2 div img {
     width: 300px;
-    margin-left:20px ;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
-.section-3{
+.section-3 {
     padding: 30px;
-    background-color:rgb(226, 233, 233) ;
+    background-color: rgb(226, 233, 233);
     align-items: center;
 }
 
-.section-3 h2{
+.section-3 h2 {
     font-size: 40px;
     margin-top: 20px;
     color: rgb(34, 34, 74);
     text-align: center;
 }
 
-.section-3 p{
+.section-3 p {
     font-size: 20px;
     margin-top: 30px;
     color: rgba(0, 0, 0, 0.564);
     text-align: justify;
 }
 
-.section-3 button{
+.section-3 button {
     padding: 20px;
     border-radius: 50px;
-    color: rgb(50, 50, 226); 
-    border-color: rgb(50, 50, 226); 
-    margin: 60px; 
+    color: rgb(50, 50, 226);
+    border-color: rgb(50, 50, 226);
+    margin: 60px;
     font-size: 15px;
+    text-decoration: none;
 }
 
-.section-3 button{
-color: blue;
-text-decoration: none;
-}
-
-.section-3 button:hover{
+.section-3 button:hover {
     background-color: rgb(50, 50, 226);
     color: white;
-    border-color:white ;
+    border-color: white;
     transition: 0.7s;
     cursor: pointer;
 }
 
-.section-3 img{
+.section-3 img {
     margin-left: 30%;
     width: 300px;
 }
 
-.section-3 .line{
+.section-3 .line {
     margin-top: 12px;
 }
 
+.section-4 {
+    padding: 250px;
+    background-image: url(img/img\ cofre\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+}
 
+.section-4 h2 {
+    color: white;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+
+}
+
+.section-4 span {
+    color: yellow;
+}
+
+.section-4 img {
+    width: 300px;
+    height: auto;
+}
+
+.section-4 p {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+
+}
+
+footer {
+    padding: 110px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 23, 23);
+
+}
+
+footer div img {
+    width: 300px;
+}
+
+footer #texto {
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    color: grey;
+}
+
+footer ul a li {
+    color: white;
+}
+
+footer ul a li:hover {
+    color: red;
+    transition: 0.7s;
+}
