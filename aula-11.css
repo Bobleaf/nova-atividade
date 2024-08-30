@@ -1,14 +1,20 @@
+/* (*) usado para mudar a configuraçao geral do site */
 * {
     margin: 0;
+    /* zarando a marigin do site */
     padding: 0;
+    /* zerando o preenchimento*/
     list-style: none;
+    /* removendo os estilos de listas */
     text-decoration: none;
+    /* tirando a decoraçao do texto */
 }
 
+/* chamando o cabeçalho */
 header {
-    background-color: rgb(78, 135, 168);
-    padding: 15px;
-    display: flex;
+    background-color: rgb(78, 135, 168);/*cor de fundo*/
+    padding: 20px;px;/* tamanho do borda */
+    display: flex;/* tornando a sessão flexivel(lado a lado) */
     justify-content: end;
     align-items: center;
 }
@@ -33,200 +39,314 @@ header nav ul li a:hover {
     color: rgb(81, 81, 228);
 
 }
-
+/* chamando a primeira sessão  */
 .section-1 {
+    /* colocando cor degrade */
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
-    padding: 200px;
-}
-
-.section-1 h1 {
+    /* tamanho da sessão */
+    padding: 180px;
+    /* tamanho da fonte */
     font-size: 30px;
-    color: rgba(0, 0, 0, 0.712);
 }
 
+/* chamando o titulo */
+.section-1 h1 {
+    /* cor da linha */
+    color: rgb(51, 50, 50);
+    /* espaçamento entre o titulo e o paragrafo */
+    margin-bottom: 10px;
+}
+
+/*chamando o paragrafo*/
 .section-1 p {
     font-size: 20px;
+    /*tamanho do paragrafo*/
 }
 
+/* chamando o botao */
 .section-1 button {
-    padding: 10px;
-    border-radius: 50px;
-    cursor: pointer;
+    /* tamanho do botao */
+    padding: 12px;
+    /* espaçamento entre o texto e o botão */
     margin-top: 10px;
-    color: rgb(19, 153, 108);
-    border-color: rgb(19, 153, 108);
-    font-size: 15px;
-
-}
-
-.section-1 button:hover {
-    color: white;
-    background-color: rgb(19, 153, 108);
-    border-color: white;
-    transition: 0.8s;
-}
-
-.section-2 {
-    padding: 30px;
-    background-color: rgb(226, 233, 233);
-    justify-content: space-evenly;
-    display: flex;
-}
-
-.section-2 div a button {
-    padding: 20px;
+    /* curvatura da borda */
     border-radius: 50px;
-    color: rgb(19, 153, 108);
-    border-color: rgb(19, 153, 108);
-    margin: 30px;
-    font-size: 15px;
-    cursor: pointer;
+    /* cor da borda */
+    border-color: green;
+    /* cor da letra */
+    color: green;
+    /* preenchimento da esquerda */
+    padding-left: 40px;
+    /* preenchimento da direita */
+    padding-right: 40px;
 }
 
+
+/* adicionando efeito ao passar o mouse no botão */
+.section-1 button:hover {
+    /* troca de cursor ao passar o mouse */
+    cursor: pointer;
+    /* trocando a cor de fundo */
+    background-color: green;
+    /* trocando a cor da borda  */
+    border-color: white;
+    /* trocando a cor da letra */
+    color: white;
+    /* adicionando transisao para todas as trocas */
+    transition: 1s;
+}
+
+/* chamando a segunda sessão do site */
+.section-2 {
+    /* cor de fundo da sessão */
+    background-color: aliceblue;
+    /* tornando a sessão flexivel(lado a lado) */
+    display: flex;
+    /* tamanho da sessão */
+    padding: 250px;
+    /* alinhando itens */
+    align-items: center;
+}
+
+/* chamando o botão */
+.section-2 div a button {
+    /* tamanho do botão */
+    padding: 10px;
+    /* espaço entre o parágrafo e o botão */
+    margin-top: 20px;
+    /* curvatura do botão */
+    border-radius: 50px;
+    /* cor da borda do botão */
+    border-color: green;
+    /* cor da letra */
+    color: green;
+    /* preenchimento da esquerda */
+    padding-left: 40px;
+    /* preenchimento da direita */
+    padding-right: 40px;
+}
+
+/* chamando o parágrafo da sessão */
 .section-2 div p {
-    font-size: 25px;
-    margin-top: 80px;
+    /* tamanho da fonte */
+    font-size: 30px;
 }
 
 .section-2 div a button:hover {
-    background-color: rgb(90, 168, 168);
-    transition: 0.8s;
+    /* trocando a cor de fundo */
+    background-color: green;
+    /* trocando a cor da borda */
     border-color: white;
+    /* trocando a cor da letra */
     color: white;
-
-}
-
-.section-2 p a {
-    text-decoration: none;
-    color: rgb(19, 153, 108);
-    font-size: 15px;
-}
-
-.section-2 div img {
-    width: 300px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.section-3 {
-    padding: 30px;
-    background-color: rgb(226, 233, 233);
-    align-items: center;
-}
-
-.section-3 h2 {
-    font-size: 40px;
-    margin-top: 20px;
-    color: rgb(34, 34, 74);
-    text-align: center;
-    align-items: center;
-}
-
-.section-3 p {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: rgba(0, 0, 0, 0.564);
-    text-align: justify;
-    align-items: center;
-}
-
-.section-3 button {
-    padding: 20px;
-    border-radius: 50px;
-    color: rgb(50, 50, 226);
-    border-color: rgb(50, 50, 226);
-    margin: 60px;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.section-3 button:hover {
-    background-color: rgb(50, 50, 226);
-    color: white;
-    border-color: white;
-    transition: 0.7s;
+    /* adicionando transisao em totas as alteraçoes */
+    transition: 1s;
+    /* trocando o cursor ao passar o mouse */
     cursor: pointer;
+
 }
 
+/* chamando a imagem da sessão */
+.section-2 div img {
+    /* tamanho da sessão */
+    width: 300px;
+    /* espaço entre o canto do site e a imagem */
+    margin-left: 30px;
+}
+
+/* chamando a terceira sessão do site */
+.section-3 {
+    /* tamanho da sessão */
+    padding: 200px;
+    /* cor de fundo */
+    background-color: aliceblue;
+}
+
+/* chamando uma parte do titulo  */
+.section-3 h2 {
+    /* trocado o tamanho desta parte do titulo */
+    font-size: 30px;
+    /* espacamento entre o texto e a imagem */
+    margin-left: 35%;
+}
+
+/* chamando o parágrafo */
+.section-3 p {
+    /* tamanho das letras */
+    font-size: 20px;
+    /* cor das letras */
+    color: gray;
+    /* espaçamento entre o parágrafo e o titulo */
+    margin-top: 20px;
+}
+
+/* chamando o botão  */
+.section-3 button {
+    /* tamanho do botão */
+    padding: 10px;
+    /* preenchimento a esquerda */
+    padding-left: 40px;
+    /* preenchimento a direita */
+    padding-right: 40px;
+    /* curvatura da borda */
+    border-radius: 50px;
+    /* espaçamento entre o botão e o texto */
+    margin-top: 60px;
+    /* cor do botão */
+    color: blue;
+    /* cor da borda do botão */
+    border-color: blue;
+}
+
+/* adicionando efeito para o botão ao passar o mouse */
+.section-3 button:hover {
+    /* trocando o cursor ao passar o mouse */
+    cursor: pointer;
+    /* trocada a cor de fundo do botão  */
+    background-color: blue;
+    /* trocada a cor da letra */
+    color: white;
+    /* trocada a cor da borda do botão */
+    border-color: white;
+    /* adicionada a transisão da troca de todos os efeitos */
+    transition: 1s;
+}
+
+/* chamando a imagem */
 .section-3 img {
-    margin-left: 35%;
-    width: 400px;
+    /* espacamento entre a lateral do site */
+    margin-left: 16%;
+    /* lagura da imagem */
+    width: 650px;
 }
 
+/* chamando a linha  */
 .section-3 .line {
-    margin-top: 12px;
-    width: 35%;
-    margin-left: 35%;
+    /* largura da linha */
+    width: 79%;
+    /* espacamento entre a linha e o botão */
+    margin-top: 27px;
+    /* espacamento da linha e a lateral esquerda do site */
+    margin-left: 12%;
+    /* espacamento entre a linha e a imagem */
+    margin-bottom: 30px;
 }
 
+/* chamando a quarta sessão do site */
 .section-4 {
-    padding: 250px;
+    /* tamanho da sessão */
+    padding: 190px;
+    /* imagem de fundo da sessão */
     background-image: url(img/img\ cofre\ fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* posisão da imagem */
     background-position: center;
+    /* dizendo para imagem não se repetir */
+    background-repeat: no-repeat;
+    /* deixando a imagem fixada */
     background-attachment: fixed;
+    /* deixando a imagem cobrir o site todo */
+    background-size: cover;
+    /* deixando a sessão flexivel */
     display: flex;
+    /* tamanho da fonte do site */
+    font-size: 20px;
+    /* alinhando os itens */
+    align-items: center;
+    /* alinhando os textos */
     text-align: center;
+    /* cor da linha */
+    color: white;
 }
 
+/* chamando o titulo */
 .section-4 h2 {
     color: white;
+    /*cor da letra*/
     font-size: 45px;
+    /*tamanho da letra*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
     margin-right: 90px;
+    /*distancia da margem da esquerda*/
     margin-left: 90px;
+    /*distancia da margem da direita*/
 
 }
 
+/* chamando uma parte do texto */
 .section-4 span {
+    /* trocando a cor desta parte */
     color: yellow;
 }
 
+/* chamando a imagem  */
 .section-4 img {
+    /* largura da imagem */
     width: 300px;
-    height: auto;
+    /* espacamento a direita da imagem */
+    margin-right: 90px;
 }
 
 .section-4 p {
     color: white;
+    /*cor da letra*/
     font-size: 20px;
+    /*tamanho da letra*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
     margin-right: 90px;
+    /*distancia da margem da esquerda*/
     margin-left: 90px;
+    /*distancia da margem da direita*/
 
 }
 
+/* chamando o roda-pé */
 footer {
-    padding: 110px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(24, 23, 23);
+      /* tamanho do roda-pé */
+      padding: 110px;
+      /* alinhando o texto */
+      text-align: center;
+      /* alinhando os itens */
+      align-items: center;
+      /* justificando o conteúdo */
+      justify-content: space-between;
+      /* cor de fundo */
+      background-color: rgb(24, 23, 23);
+      /* alinhando o texto */
+      text-align: center;
 
 }
-
+/* chamando a imagem */
 footer img {
-    width: 300px;
+    width: 300px;/* largura da imagem */
 }
-
-footer #text {
+/* chamando a identificaçao (id) da caixa (div) */
+footer #texto{
+    /* tornando os textos flexivel deixando lado a lado */
     display: flex;
+    /* espacamento entre os texto */
     margin-right: 30px;
+    /* justificando o conteudo para que fique um em cada lateral do site */
     justify-content: space-between;
+    /* alinhando o texto */
     text-align: center;
+    /* alinhando os itens */
     align-items: center;
+    /* espacamento entre os textos e a imagem */
     margin-top: 30px;
-    color: grey;
+    /* cor da letra */
+    color: gray;
 }
-
-footer nav ul li a {
+/* chamando a lista  */
+footer ul a li {
+    /* cor da letra */
     color: white;
 }
-
-footer nav ul li a:hover {
+/* adicionando efeito ao passar o mouse na lista */
+footer ul a li:hover{
+    /* trocada a cor da letra */
     color: red;
+    /* transisao ao passar o mouse  */
     transition: 0.7s;
 }
