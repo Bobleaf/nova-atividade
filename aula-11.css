@@ -8,37 +8,54 @@
     /* removendo os estilos de listas */
     text-decoration: none;
     /* tirando a decoraçao do texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /*fonte da letra*/
+
 }
 
 /* chamando o cabeçalho */
 header {
-    background-color: rgb(78, 135, 168);/*cor de fundo*/
-    padding: 20px;px;/* tamanho do borda */
-    display: flex;/* tornando a sessão flexivel(lado a lado) */
+    background-color: rgb(78, 135, 168);
+    /*cor de fundo*/
+    padding: 20px;
+    /* tamanho do borda */
+    display: flex;
+    /* tornando a sessão flexivel(lado a lado) */
     justify-content: end;
+    /*deixa os itens no final da pagina*/
     align-items: center;
+    /*deixa os itens alinhado no centro*/
 }
 
 header nav ul {
     display: flex;
+    /* tornando a sessão flexivel(lado a lado) */
 }
 
 header nav ul li {
     list-style: none;
+    /* removendo os estilos de listas */
     margin-right: 10px;
+    /*espaço do lado esquerdo*/
     font-size: 10px;
+    /*espaço do lado direito*/
 }
 
 header nav ul li a {
     text-decoration: none;
+    /* tirando a decoraçao do texto */
     color: white;
+    /*cor da letra*/
 }
 
 header nav ul li a:hover {
     transition: 0.7s;
+    /*transição*/
     color: rgb(81, 81, 228);
+    /*cor da letra*/
 
 }
+
 /* chamando a primeira sessão  */
 .section-1 {
     /* colocando cor degrade */
@@ -55,6 +72,8 @@ header nav ul li a:hover {
     color: rgb(51, 50, 50);
     /* espaçamento entre o titulo e o paragrafo */
     margin-bottom: 10px;
+    /*negrito*/
+    font-weight: 600;
 }
 
 /*chamando o paragrafo*/
@@ -168,6 +187,7 @@ header nav ul li a:hover {
     font-size: 30px;
     /* espacamento entre o texto e a imagem */
     margin-left: 35%;
+    margin-top: -150px;
 }
 
 /* chamando o parágrafo */
@@ -303,26 +323,29 @@ header nav ul li a:hover {
 
 /* chamando o roda-pé */
 footer {
-      /* tamanho do roda-pé */
-      padding: 110px;
-      /* alinhando o texto */
-      text-align: center;
-      /* alinhando os itens */
-      align-items: center;
-      /* justificando o conteúdo */
-      justify-content: space-between;
-      /* cor de fundo */
-      background-color: rgb(24, 23, 23);
-      /* alinhando o texto */
-      text-align: center;
+    /* tamanho do roda-pé */
+    padding: 110px;
+    /* alinhando o texto */
+    text-align: center;
+    /* alinhando os itens */
+    align-items: center;
+    /* justificando o conteúdo */
+    justify-content: space-between;
+    /* cor de fundo */
+    background-color: rgb(24, 23, 23);
+    /* alinhando o texto */
+    text-align: center;
 
 }
+
 /* chamando a imagem */
 footer img {
-    width: 300px;/* largura da imagem */
+    width: 300px;
+    /* largura da imagem */
 }
+
 /* chamando a identificaçao (id) da caixa (div) */
-footer #texto{
+footer #texto {
     /* tornando os textos flexivel deixando lado a lado */
     display: flex;
     /* espacamento entre os texto */
@@ -338,13 +361,15 @@ footer #texto{
     /* cor da letra */
     color: gray;
 }
+
 /* chamando a lista  */
-footer ul a li {
+footer ul li a  {
     /* cor da letra */
     color: white;
 }
+
 /* adicionando efeito ao passar o mouse na lista */
-footer ul a li:hover{
+footer  ul li a:hover {
     /* trocada a cor da letra */
     color: red;
     /* transisao ao passar o mouse  */
