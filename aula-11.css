@@ -179,6 +179,7 @@ header nav ul li a:hover {
     padding: 200px;
     /* cor de fundo */
     background-color: aliceblue;
+ 
 }
 
 /* chamando uma parte do titulo  */
@@ -257,7 +258,7 @@ header nav ul li a:hover {
     /* tamanho da sessão */
     padding: 190px;
     /* imagem de fundo da sessão */
-    background-image: url(img/img\ cofre\ fundo.jpg);
+    background: linear-gradient(180deg,#0c16a364 8.33%, rgba(5,39,101,0.745)100%), url(img/img\ cofre\ fundo.jpg);
     /* posisão da imagem */
     background-position: center;
     /* dizendo para imagem não se repetir */
@@ -271,7 +272,7 @@ header nav ul li a:hover {
     /* tamanho da fonte do site */
     font-size: 20px;
     /* alinhando os itens */
-    align-items: center;
+    align-items: start;
     /* alinhando os textos */
     text-align: center;
     /* cor da linha */
@@ -282,7 +283,7 @@ header nav ul li a:hover {
 .section-4 h2 {
     color: white;
     /*cor da letra*/
-    font-size: 45px;
+    font-size: 35px;
     /*tamanho da letra*/
     margin-top: 20px;
     /*distancia da margen de cima*/
@@ -290,6 +291,7 @@ header nav ul li a:hover {
     /*distancia da margem da esquerda*/
     margin-left: 90px;
     /*distancia da margem da direita*/
+    text-align: center;
 
 }
 
