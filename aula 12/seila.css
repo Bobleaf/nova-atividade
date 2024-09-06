@@ -6,7 +6,7 @@
     /*zerando o preenchimento*/
     list-style: none;
     /*remove os estilos de lista*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;/*fonte das letras*/
 }
 
 header {
@@ -17,9 +17,9 @@ header {
 }
 
 .section-1 {
-    background-image: url(img/man-2956377_640.png);
-    padding: 200px;
-    background-repeat: no-repeat;
+    background-image: url(img/man-2956377_640.png); /*coloca a imagen no fundo*/
+    padding: 200px; /*tamanho da borda*/
+    background-repeat: no-repeat;/* é para fazer que a imagen não repita*/
     background-attachment: fixed;
     /* posição em que a imagen será apresentada */
 }
@@ -40,7 +40,7 @@ header {
 
 .flex-container {
     display: flex;
-    gap: 30px;
+    gap: 30px;/*espaçamentos entre as div*/
     /*proproedade utilizada para dar o respiro/espaço entre os elementos*/
     align-items: center;
     /*alinhamento os itens ao centro na vertical*/
