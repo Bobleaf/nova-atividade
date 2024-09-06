@@ -1,15 +1,116 @@
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: dodgerblue;
+/*usamos o(*) para informar que existem itens irão recair sobre todo o html*/
+* {
+    margin: 0;
+    /*zerando a margin top bottom ring left*/
+    padding: 0;
+    /*zerando o preenchimento*/
+    list-style: none;
+    /*remove os estilos de lista*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.flex-container div{
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    }
+header {
+    background-color: #027fe9;
+    /*cor de fundo*/
+    padding: 20px;
+    /*tamanho da borda*/
+}
+
+.section-1 {
+    background-image: url(img/man-2956377_640.png);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* posição em que a imagen será apresentada */
+}
+
+.section-1 p {
+    font-size: 20px;
+    color: black;
+
+}
+
+.section-2 {
+
+    background-color: #00caf8;
+    /*cor de fundo*/
+    padding: 200px;
+    /* tamanho do borda */
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+    /*proproedade utilizada para dar o respiro/espaço entre os elementos*/
+    align-items: center;
+    /*alinhamento os itens ao centro na vertical*/
+    justify-content: center;
+    /*justificando o conteúdo ao centro (horisontal)*/
+}
+
+.flex-container div {
+    width: 200px;
+    /*largura da caixa*/
+    height: 280px;
+    /*altura da caixa*/
+    margin-right: 20px;
+    /*espaçamento entre as caixas
+        */
+    border-radius: 10px;
+    /*arredondamento da borda*/
+    background-color: #6f737e;
+
+    padding: 10px;
+    /* tamanho do borda */
+}
+
+.flex-container div:hover {
+    /* transform:translate(0px, 20px);/*primeiro x (horisontal) depois valor do eixo y (vertical) */
+
+    /* transform: rotate(5deg);aqui trabalhamos com a rotação da caixa */
+
+    /* transform: scale(1.1,1.1);trabalha com a scala de movimento dos eixos xe y. */
+
+    transform: skew(20deg, 10deg);
+    /*inclina um elemento ao longo dos eixos x e y*/
+    transition: 0.7s;
+    /*tempo de transição*/
+}
+
+.section-2 .flex-container .filho-1 {
+    background-image: url(img/girl-1258727_640.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
+}
+.section-2 .flex-container .filho-2 {
+    background-image: url(img/tango-190026_640.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
+}
+.section-2 .flex-container .filho-3 {
+    background-image: url(img/ballet-5352231_640.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
+}
+
+footer {
+    background-color: #e0daf7;
+    /*cor de fundo*/
+    padding: 200px;
+    /* tamanho do borda */
+}
